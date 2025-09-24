@@ -18,10 +18,6 @@ codeunit 70658581 "AppSrc App Sub Chk Jp Lz TJP"
         TenantID := AzureADTenant.GetAadTenantId();
 
         // Customers with Subscription
-        if TenantID = '5b14fc65-f753-4d91-9ca7-3ea498e2ea74' then begin   // Aden & Anais
-            CustomerName := 'Aden & Anais';
-            exit(true);
-        end;
         if TenantID = '4baae6df-37c8-4042-bd15-e1cac05e7b89' then begin   // CEM Japan
             CustomerName := 'CEM Japan';
             exit(true);
@@ -50,16 +46,8 @@ codeunit 70658581 "AppSrc App Sub Chk Jp Lz TJP"
             CustomerName := 'Jadeite Medicines';
             exit(true);
         end;
-        if TenantID = '633d5e81-cdcd-4fee-a44a-d66c6752ccdc' then begin   // Managesoft
-            CustomerName := 'Managesoft';
-            exit(true);
-        end;
         if TenantID = 'efa9a9e1-c3d8-424e-acf5-574179cea8b1' then begin   // MOTEX
             CustomerName := 'MOTEX';
-            exit(true);
-        end;
-        if TenantID = 'ac8510a3-82e6-4ece-affd-c8ca29ee1d4e' then begin   // Movora
-            CustomerName := 'Movora';
             exit(true);
         end;
         if TenantID = '1de7aa6c-5376-47a8-a94f-fd790714fb1b' then begin   // Munters
@@ -78,12 +66,16 @@ codeunit 70658581 "AppSrc App Sub Chk Jp Lz TJP"
             CustomerName := 'Peninsula';
             exit(true);
         end;
+        if TenantID = '8db056f4-1b0b-4b1b-bbfb-aa46b62604cf' then begin   // Roechling
+            CustomerName := 'Roechling';
+            exit(true);
+        end;
         if TenantID = 'f02a6b6d-b0fd-4413-b37b-bf91407c8597' then begin   // Seibu Denki
             CustomerName := 'Seibu Denki';
             exit(true);
         end;
-        if TenantID = 'a7fcaca6-9af3-4dee-b5de-4dd9cc8c22eb' then begin   // StrategIT
-            CustomerName := 'StrategIT';
+        if TenantID = 'fcf1d2ff-ce4c-4402-863d-744563e83672' then begin   // Stanley
+            CustomerName := 'Stanley';
             exit(true);
         end;
         if TenantID = '6ffacdd8-f58e-42c9-8b30-295938042506' then begin   // Vaxxinova
