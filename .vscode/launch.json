@@ -1,0 +1,53 @@
+{
+    "version": "0.2.0",
+    "configurations": 
+    [
+        {
+            "name": "BC Docker (Anada)",
+            "request": "launch",                        
+            "type": "al",
+            "server": "http://dbcsw1l",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            //"startupObjectId": 22,
+            //"startupObjectType": "Page",            
+            "breakOnError": "ExcludeTry",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            //"schemaUpdateMode": "ForceSync"
+        },                    
+        {
+            "name": "BC Cloud (Tectura)",
+            "request": "launch",
+            "type": "al",
+            "tenant": "tectura.co.jp",
+            "environmentType": "Sandbox",
+            "environmentName": "Localization",
+            //"startupObjectId": 22,
+            //"startupObjectType": "Page",            
+            "breakOnError": "ExcludeTry",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        },                    
+        {
+            "name": "BC Cloud (Anada)",
+            "request": "launch",
+            "type": "al",
+            "tenant": "M365x47229681.onmicrosoft.com",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox",
+            //"startupObjectId": 22,
+            //"startupObjectType": "Page",            
+            "breakOnError": "ExcludeTry",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+        }                  
+    ]
+}

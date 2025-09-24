@@ -1,0 +1,17 @@
+{
+    "name":"Japan Localization Rules!",
+    "description": "Rules for Tectura Japan Localization Dynamics 365 Business Centrall App",
+    "rules":
+    [
+        {
+            "id": "AL0659",
+            "action": "Hidden",
+            "justification": "'The length of an enum identifier should not exceed 30 characters.' - Changing the length of the Enum names will be very difficult and we will leave the 2 Enums as they are: 'Depreciation Method (Extended) TJP' & 'Promissory Note Issuer Type TJP'."
+        },
+        {
+            "id": "AW0009",
+            "action": "Hidden",
+            "justification": "'Using a Blob with subtype Bitmap on a page field is deprecated. Instead use the Media/MediaSet data types.' - Removing this warning will require data migration and we will leave the table extension as it is for a while: 'CompInfoTJP'."
+        }
+    ]
+}

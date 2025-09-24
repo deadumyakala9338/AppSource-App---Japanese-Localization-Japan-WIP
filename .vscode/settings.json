@@ -1,0 +1,11 @@
+{
+    "al.codeAnalyzers": 
+    [
+        "${AppSourceCop}",
+        "${CodeCop}",
+        "${UICop}"
+    ],
+    "al.enableCodeAnalysis": true,
+    "al.backgroundCodeAnalysis": true,
+    "al.ruleSetPath": "./.vscode/AppSourceTJP.ruleset.json"
+}
